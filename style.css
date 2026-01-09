@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsla(215, 35%, 22%, 0.938);
+}
+
+.text,
+a,
+.list li {
+    font-size: 20px;
+    font-family: sans-serif, monospace, 'Courier New';
+    color: hsla(180, 30%, 96%, 0.938);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsla(180, 79%, 54%, 0.938);
+}
+
+.text.title,
+.text.midhead {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.text.title {
+    font-size: 30px;
+}
+
+.menu {
+    list-style: none;
+    margin: 30px auto;
+    display: flex;
+    padding: 15px;
+}
+
+.menu li {
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.menu li:hover {
+    border-color: hsla(180, 79%, 54%, 0.938);
+}
+
+img {
+    margin: 10px auto;
+    display: block;
+    height: 300px;
+}
+
+.description,
+.ingredients,
+.steps {
+    margin: 15px 30px;
+}
+
+.text.home {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+}
+
+.text.midhead {
+    color: hsla(216, 69%, 78%, 0.836);
+    font-size: 26px;
+    margin: 20px auto 0px;
+}
+
+.list li {
+    padding-bottom: 20px;
+}
+
+.text.lasthead {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
